@@ -1,10 +1,7 @@
-# UrlShortener
-
+# 📎 URL Shortener
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.15.
 Don't forget to install angular 
 npm install -g @angular/cli@19.2.15
-
-# 📎 URL Shortener
 
 A simple and efficient **URL Shortener** built with **Angular** (frontend) and **Spring Boot** (backend).  
 
