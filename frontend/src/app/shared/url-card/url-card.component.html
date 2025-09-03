@@ -1,0 +1,17 @@
+<div class="bg-white rounded-lg shadow-md mb-6 p-6 hover:shadow-lg transition duration-200">
+  <div class="space-y-4">
+    <div>
+      <h3 class="text-sm font-semibold text-gray-600 mb-1">Original URL</h3>
+      <p class="text-gray-800 break-all">{{ urlData().originalUrl }}</p>
+    </div>
+    <div>
+      <h3 class="text-sm font-semibold text-gray-600 mb-1">Short URL</h3>
+      <a 
+        [href]="urlData().shortUrl" 
+        target="_blank"
+        class="text-blue-600 hover:text-blue-800 break-all hover:underline">
+        {{ urlData().shortUrl }}
+      </a>
+    </div>
+  </div>
+</div>
